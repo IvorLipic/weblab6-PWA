@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paint App</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <!-- Canvas for drawing -->
+  <canvas id="canvas"></canvas>
+  
+  <!-- Video element (hidden initially) -->
+  <video id="videoElement" style="display: none;"></video>
+
+  <div class="buttons-container">
+    <button id="newDrawingBtn">New Drawing</button>
+    <input type="color" id="colorPicker" value="#000000" title="Pick a color"> <!-- Color Picker -->
+    <button id="cameraBtn">Use Camera</button>
+    <button id="takePictureBtn" style="display: none;">Take Picture</button>
+    <button id="saveBtn">Save Image</button>
+  </div>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>

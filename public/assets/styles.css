@@ -1,0 +1,80 @@
+body {
+  background-color: #f3f4f6;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+canvas {
+  border: 2px solid #4b5563;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  height: 80vh;
+  width: 90vw;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  width: 600px;
+  max-width: 90vw;
+}
+
+button, input[type="color"] {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+  max-width: 200px;
+}
+
+button:hover, input[type="color"]:hover {
+  opacity: 0.9;
+}
+
+button:focus, input[type="color"]:focus {
+  outline: none;
+}
+
+#newDrawingBtn {
+  background-color: #3b82f6;
+  color: white;
+}
+
+#newDrawingBtn:hover {
+  background-color: #2563eb;
+}
+
+#cameraBtn {
+  background-color: #10b981;
+  color: white;
+}
+
+#cameraBtn:hover {
+  background-color: #059669;
+}
+
+#takePictureBtn {
+  background-color: #f59e0b;
+  color: white;
+  margin-top: 1em; 
+}
+
+#takePictureBtn:hover {
+  background-color: #d97706;
+}
+
+#colorPicker {
+  min-width: 100px;
+  max-width: 300px;
+  min-height: 50px;
+}
