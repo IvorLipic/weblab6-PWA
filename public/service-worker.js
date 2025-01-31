@@ -4,8 +4,7 @@ const urlsToCache = [
   '/index.html',
   '/assets/script.js',
   '/manifest.json',
-  '/assets/styles.css',
-  '/icons'
+  '/assets/styles.css'
 ];
 
 // Install SW and cache
